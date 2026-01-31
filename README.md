@@ -46,7 +46,7 @@ Operating-Systems/
 
 ## ✅ Completed
 - **CPU Scheduling**
-  - FCFS scheduling
+  - FCFS,SJF scheduling
   - Ready queue simulation
   - Waiting & turnaround time calculation
 
@@ -114,7 +114,7 @@ Operating-Systems/
 ---
 
 ## 📈 Progress
-- [x] FCFS Scheduling
+- [x] FCFS,SJF Scheduling
 - [ ] Process Management
 - [ ] Round Robin
 - [ ] Semaphores
@@ -127,4 +127,5 @@ Operating-Systems/
 ## 👨‍💻 Author
 **Nikhil** — B.Tech CSE (Central University Of Jammu) 
 Focus: OS, DSA, OOP ,DBMS
+
 
