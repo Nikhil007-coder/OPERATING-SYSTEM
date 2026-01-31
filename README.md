@@ -31,7 +31,7 @@ Focus is on:
 Operating-Systems/
 │
 ├── Process_Management/
-├── CPU_Scheduling/        (FCFS ✅, others in progress)
+├── CPU_Scheduling/        (FCFS ✅,SJF ✅, others in progress)
 ├── Synchronization/
 ├── Deadlocks/
 ├── Memory_Management/
@@ -127,3 +127,4 @@ Operating-Systems/
 ## 👨‍💻 Author
 **Nikhil** — B.Tech CSE (Central University Of Jammu) 
 Focus: OS, DSA, OOP ,DBMS
+
