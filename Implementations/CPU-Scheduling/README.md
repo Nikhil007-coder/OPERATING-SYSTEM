@@ -11,6 +11,7 @@ More scheduling algorithms will be added progressively.
 ## 📂 Folder Structure
 cpu_scheduling/
 ├── FCFS.cpp
+├── SJF.cpp
 └── README.md
 
 
@@ -18,51 +19,47 @@ cpu_scheduling/
 ---
 
 ## ✅ Implemented Algorithms
+1️⃣ First Come First Serve (FCFS)
 
-### 1️⃣ First Come First Serve (FCFS)
-**File:** `FCFS.cpp`
+File: FCFS.cpp
 
-**Description:**
-Implements the **First Come First Serve (FCFS)** CPU scheduling algorithm
-based on arrival time.
+Schedules processes based on arrival time
 
-**Features:**
-- Sorts processes by arrival time
-- Calculates:
-  - Start Time (ST)
-  - Completion Time (CT)
-  - Turnaround Time (TAT)
-  - Waiting Time (WT)
-- Displays:
-  - Scheduling table
-  - Average WT and TAT
-  - Gantt Chart representation
-- Handles CPU idle time
+Calculates ST, CT, TAT, WT
 
-**Concepts used:**
-- Structures (`struct`)
-- Sorting with custom comparator
-- Dynamic memory allocation
-- Scheduling metrics calculation
+Displays average WT & TAT
 
----
+Generates Gantt Chart
 
-## 🔜 Planned Algorithms (To Be Added)
+Handles CPU idle time
 
-- Shortest Job First (SJF)
-- Shortest Remaining Time First (SRTF)
-- Priority Scheduling
-- Round Robin (RR)
-- Multilevel Queue Scheduling
+2️⃣ Shortest Job First (SJF) – Non-Preemptive
 
----
+File: SJF.cpp
 
-## ▶️ How to Run
+Selects process with minimum burst time
 
-Compile and run any algorithm file individually.
+Non-preemptive execution
 
-Example (FCFS):
-```bash
+Calculates ST, CT, TAT, WT
+
+Displays average WT & TAT
+
+Generates Gantt Chart
+
+🔜 Planned Algorithms
+
+Shortest Remaining Time First (SRTF)
+
+Priority Scheduling
+
+Round Robin (RR)
+
+Multilevel Queue Scheduling
+
+▶️ How to Run
 g++ FCFS.cpp -o fcfs
 ./fcfs
 
+g++ SJF.cpp -o sjf
+./sjf
