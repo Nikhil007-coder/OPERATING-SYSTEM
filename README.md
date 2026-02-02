@@ -3,8 +3,7 @@
 ## 📌 Overview
 This repository focuses on **implementation-based Operating System concepts**, emphasizing **how OS components work internally** rather than only theory.
 
-It contains **code, simulations, and mini-projects** that demonstrate:
-- Kernel-level behavior
+It contains **code, simulations, and mini-projects** that demonstrate:
 - Core OS data structures
 - Internal working of OS components
 
